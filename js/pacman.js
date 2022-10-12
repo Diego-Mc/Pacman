@@ -93,7 +93,7 @@ function getNextLocation(eventKeyboard) {
       return null
   }
 
-  PACMAN = `<img class="pacman ${dir}" src="../icons/pacman.png">`
+  PACMAN = `<img class="pacman ${dir}" src="/icons/pacman.png">`
 
   return nextLocation
 }
