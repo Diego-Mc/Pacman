@@ -1,6 +1,6 @@
 'use strict'
 
-var PACMAN = `<img class="pacman" src="../icons/pacman.png">`
+var PACMAN = `<img class="pacman" src="icons/pacman.png">`
 var gPacman
 var gDeadGhosts = []
 var gSuperTimeout = 0

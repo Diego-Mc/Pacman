@@ -96,5 +96,5 @@ function addGhostsByArr(ghostsArr) {
 
 function getGhostHTML(ghost) {
   var color = gPacman.isSuper ? 'chase' : ghost.colorId
-  return `<img src="../icons/ghost-${color}.png">`
+  return `<img src="icons/ghost-${color}.png">`
 }

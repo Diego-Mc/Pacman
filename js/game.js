@@ -2,8 +2,8 @@
 
 const WALL = '<span class="wall"></span>'
 const FOOD = '<span style="font-weight: 800">·</span>'
-const POWER_FOOD = `<img src="../icons/strawberry.png">`
-const CHERRY = `<img src="../icons/cherry.png">`
+const POWER_FOOD = `<img src="icons/strawberry.png">`
+const CHERRY = `<img src="icons/cherry.png">`
 const EMPTY = ' '
 
 var gGame = {
@@ -13,12 +13,12 @@ var gGame = {
   foodEatenAmount: 0,
   cherryInterval: 0,
   sounds: {
-    beginning: new Audio('../sounds/pacman_beginning.wav'),
-    chomp: new Audio('../sounds/pacman_chomp.wav'),
-    death: new Audio('../sounds/pacman_death.wav'),
-    eatFruit: new Audio('../sounds/pacman_eatfruit.wav'),
-    eatGhost: new Audio('../sounds/pacman_eatghost.wav'),
-    superPacman: new Audio('../sounds/pacman_extrapac.wav'),
+    beginning: new Audio('sounds/pacman_beginning.wav'),
+    chomp: new Audio('sounds/pacman_chomp.wav'),
+    death: new Audio('sounds/pacman_death.wav'),
+    eatFruit: new Audio('sounds/pacman_eatfruit.wav'),
+    eatGhost: new Audio('sounds/pacman_eatghost.wav'),
+    superPacman: new Audio('sounds/pacman_extrapac.wav'),
   },
 }
 var gBoard
